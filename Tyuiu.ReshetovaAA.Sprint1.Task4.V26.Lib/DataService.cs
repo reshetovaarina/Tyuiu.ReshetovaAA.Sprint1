@@ -6,7 +6,7 @@
         public double Calculate(double x, double y)
         {
             double z = 1;
-            double res = (Math.Atan(x) + y) / Math.Exp(y+z);
+            double res = -(Math.Atan(x) + y) / Math.Exp(y+z);
             return Math.Round(res, 3);
         }
     }
