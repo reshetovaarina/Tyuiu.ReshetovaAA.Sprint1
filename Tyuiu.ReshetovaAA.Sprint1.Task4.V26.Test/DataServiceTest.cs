@@ -8,8 +8,8 @@ namespace Tyuiu.ReshetovaAA.Sprint1.Task4.V26.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 1;
-            double y = -1;
+            double x = 0;
+            double y = -0.88;
             double wait = Math.Round((Math.Atan(x) + y) / Math.Exp(y), 3);
 
             var res = ds.Calculate(x, y);
