@@ -9,8 +9,9 @@ namespace Tyuiu.ReshetovaAA.Sprint1.Task4.V26.Test
         {
             DataService ds = new DataService();
             double x = 1;
-            double y = 2;
-            double wait = Math.Round((Math.Atan(x) + y) / Math.Exp(y), 3);
+            double y = -1;
+            double z = 2.243;
+            double wait = Math.Round((Math.Atan(x) + y) / Math.Exp(y + z), 3);
 
             var res = ds.Calculate(x, y);
 
