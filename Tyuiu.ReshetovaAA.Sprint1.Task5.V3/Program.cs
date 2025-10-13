@@ -20,7 +20,7 @@ Console.WriteLine("*Введите k:                                           
 int k = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("***************************************************************************************************");
-Console.WriteLine("* РЕЗУЛЬТАТ h:                                                                                      *");
+Console.WriteLine("* РЕЗУЛЬТАТ h:                                                                                    *");
 Console.WriteLine("***************************************************************************************************");
 int res = Convert.ToInt32(ds.Calculate(k));
 Console.WriteLine(res);
